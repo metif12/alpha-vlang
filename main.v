@@ -5,5 +5,5 @@ fn main() {
 
 	log := parse() ?
 
-	// println(log)
+	println(log)
 }

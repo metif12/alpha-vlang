@@ -29,10 +29,10 @@ fn parse() ?map[string]Trace {
 		// 	println('$i:${b.ascii_str()}')
 		// }
 		// println(row[1][10..13].int())
-		println(row[1])
-		println(ets)
+		// println(row[1])
+		// println(ets)
 
-		break
+		// break
 
 		mut tc := log[cid] or {
 			Trace{
