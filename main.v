@@ -1,9 +1,16 @@
 module main
 
+import time
+
 fn main() {
 	println('Starting...')
 
-	log := parse() ?
+	sw := time.new_stopwatch()
 
-	println(log)
+	_ := parse() ?
+	// log := parse() ?
+
+	// println(log)
+
+	println('total time: ${sw.elapsed().seconds()}s')
 }
