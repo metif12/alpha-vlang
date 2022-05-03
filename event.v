@@ -6,18 +6,54 @@ import time
 struct Event {
 	id        string
 	title     string
-	timestamp time.Time
+	time time.Time
 }
 
-fn cmp_events(a &&Event, b &&Event) int {
-	if a.timestamp < b.timestamp {
+
+fn (a Event) is_same(b Event) bool {
+
+	return a.title == b.title
+}
+
+// fn (a Event) == (b Event) bool {
+
+// 	return a.title == b.title
+// }
+
+// fn (a Event) != (b Event) bool {
+
+// 	return a.title != b.title
+// }
+
+// fn (a Event) > (b Event) bool {
+
+// 	return a.time > b.time
+// }
+
+// fn (a Event) >= (b Event) bool {
+
+// 	return a.time >= b.time
+// }
+
+// fn (a Event) < (b Event) bool {
+
+// 	return a.time < b.time
+// }
+
+// fn (a Event) <= (b Event) bool {
+
+// 	return a.time <= b.time
+// }
+
+fn cmp_events_time(a &Event, b &Event) int {
+	if a.time < b.time {
 		return 1
 	}
-	if a.timestamp > b.timestamp {
+	if a.time > b.time {
 		return -1
 	}
 
-	// println('equal timestamp!')
+	// println('equal time!')
 
 	if a.id < b.id {
 		return -1

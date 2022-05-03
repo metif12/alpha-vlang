@@ -2,15 +2,24 @@ module main
 
 import time
 
+const dataset_path = 'dataset.csv'
+const eventlog_path = 'eventlog.csv'
+
 fn main() {
-	println('Starting...')
+
+	println('Reading dataset ...')
 
 	sw := time.new_stopwatch()
 
-	_ := parse() ?
-	// log := parse() ?
+	mut dataset := Dataset{}
 
-	// println(log)
+	dataset.parse(dataset_path) ?
 
-	println('total time: ${sw.elapsed().seconds()}s')
+	mut eventlog := Eventlog{traces: dataset.traces}
+
+	println('Writing eventlog cache ...')
+	eventlog.write_cache(eventlog_path)?
+	// eventlog.load_cache(eventlog_path)?
+	
+	println('finished in  ${sw.elapsed().seconds()}s')
 }
