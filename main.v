@@ -3,23 +3,20 @@ module main
 import time
 
 const dataset_path = 'dataset.csv'
-const eventlog_path = 'eventlog.csv'
 
 fn main() {
 
-	println('Reading dataset ...')
-
 	sw := time.new_stopwatch()
 
-	mut dataset := Dataset{}
+	mut eventlog := Eventlog{}
 
-	dataset.parse(dataset_path) ?
+	println('Reading dataset ...')
+	eventlog.parse_dataset(dataset_path)?
 
-	mut eventlog := Eventlog{traces: dataset.traces}
+	mut footprint := Footprint{}
 
-	println('Writing eventlog cache ...')
-	eventlog.write_cache(eventlog_path)?
-	// eventlog.load_cache(eventlog_path)?
+	println('Make footprint matrix ...')
+	footprint.parse_eventlog(mut eventlog)
 	
 	println('finished in  ${sw.elapsed().seconds()}s')
 }

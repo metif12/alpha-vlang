@@ -2,7 +2,7 @@ module main
 
 [heap]
 struct Trace {
-	case_id string
+	id string
 mut:
 	events []Event
 }

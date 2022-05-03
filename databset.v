@@ -7,20 +7,21 @@ import encoding.csv
 [heap]
 struct Dataset {
 mut:
-	traces map[string]Trace
+	traces map[string]Trace = map[string]Trace{}
 }
 
-fn (mut d Dataset) get_case(case_id string) Trace{
-	return d.traces[case_id] or {
+fn (mut d Dataset) get_case(id string) Trace{
+	return d.traces[id] or {
 		Trace{
-			case_id: case_id
+			id: id
 		}
 	}
 }
 
-fn (mut d Dataset) update_case(case_id string, t Trace){
-	d.traces[case_id] = t
+fn (mut d Dataset) update_case(id string, t Trace){
+	d.traces[id] = t
 }
+
 
 fn (mut d Dataset) parse(dataset_path string) ? {
 
@@ -52,7 +53,7 @@ fn (mut d Dataset) parse(dataset_path string) ? {
 
 		trace.add_event(Event{
 			id: eid
-			title: ett
+			activity: ett
 			time: ets
 		})
 
