@@ -6,8 +6,8 @@ import encoding.csv
 enum Relations {
 	independency
 	causality
-	following
-	follower
+	left // ->
+	right // <-
 	cuncurrency
 }
 
@@ -18,7 +18,9 @@ mut:
 	activities []string
 }
 
-fn (mut f Footprint) parse_eventlog(mut e Eventlog) {
+fn build_footprint(mut e Eventlog) Footprint {
+
+	mut f := Footprint{}
 
 	f.activities = e.activities
 
@@ -29,20 +31,19 @@ fn (mut f Footprint) parse_eventlog(mut e Eventlog) {
 	}
 
 	for _, mut t in e.traces {
-		t.sort_events()
 
 		for i:=1; i<t.events.len; i++ {
 			x := t.events[i-1].activity
 			y := t.events[i].activity
-			f.matrix[x][y] = .following
-			f.matrix[y][x] = .follower
+			f.matrix[x][y] = .left
+			f.matrix[y][x] = .right
 		}
 	}
 
 	for x in f.activities{
 		for y in f.activities {
-			if f.matrix[x][y] in [.follower, .following]{
-				if f.matrix[y][x] in [.follower, .following]{
+			if f.matrix[x][y] in [.right, .left]{
+				if f.matrix[y][x] in [.right, .left]{
 					f.matrix[x][y] = .cuncurrency
 					f.matrix[y][x] = .cuncurrency
 				}
@@ -55,6 +56,8 @@ fn (mut f Footprint) parse_eventlog(mut e Eventlog) {
 	// 		println('$x, $y = $n')
 	// 	}
 	// }
+
+	return f
 }
 
 fn write_footprint(footprint_path string, f Footprint) ? {
@@ -70,9 +73,3 @@ fn write_footprint(footprint_path string, f Footprint) ? {
 	}
 	os.write_file(footprint_path, csv_writer.str()) ?
 }
-
-// fn load_footprint(footprint_path string) ?Footprint {
-
-// 	content := os.read_file(footprint_path) ?
-// 	return json.decode(Footprint, content)
-// }

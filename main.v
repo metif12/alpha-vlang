@@ -9,17 +9,16 @@ fn main() {
 
 	sw := time.new_stopwatch()
 
-	mut eventlog := Eventlog{}
-
 	println('Reading dataset ...')
-	eventlog.parse_dataset(dataset_path)?
+	mut eventlog := build_eventlog(dataset_path)?
 
-	mut footprint := Footprint{}
-
-	println('Make footprint matrix ...')
-	footprint.parse_eventlog(mut eventlog)
+	println('Build footprint matrix ...')
+	mut footprint := build_footprint(mut eventlog)
 
 	write_footprint(footprint_path, footprint)?
+
+	println('Build petrynet ...')
+	mut petrynet := build_petrynet(eventlog, footprint)
 	
 	println('finished in  ${sw.elapsed().seconds()}s')
 }

@@ -53,7 +53,9 @@ fn (mut e Eventlog) update_case(id string, t Trace){
 // 	}
 // }
 
-fn (mut e Eventlog) parse_dataset(dataset_path string) ? {
+fn build_eventlog(dataset_path string) ?Eventlog{
+
+	mut e := Eventlog{}
 
 	content := os.read_file(dataset_path) ?
 
@@ -93,6 +95,12 @@ fn (mut e Eventlog) parse_dataset(dataset_path string) ? {
 
 		e.update_case(cid, trace)
 	}
+
+	for _, mut t in e.traces {
+		t.sort_events()
+	}
+
+	return e
 }
 
 // fn (e Eventlog) write_cache(eventlog_path string) ? {

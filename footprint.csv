@@ -1,0 +1,1522 @@
+x,y,relation
+Reassignment,Reassignment,cuncurrency
+Reassignment,Update from customer,cuncurrency
+Reassignment,Operator Update,cuncurrency
+Reassignment,Assignment,cuncurrency
+Reassignment,Closed,cuncurrency
+Reassignment,Caused By CI,cuncurrency
+Reassignment,Update,cuncurrency
+Reassignment,Status Change,cuncurrency
+Reassignment,Description Update,cuncurrency
+Reassignment,Analysis/Research,cuncurrency
+Reassignment,Resolved,cuncurrency
+Reassignment,OO Response,cuncurrency
+Reassignment,Communication with customer,cuncurrency
+Reassignment,External Vendor Assignment,cuncurrency
+Reassignment,Pending vendor,cuncurrency
+Reassignment,Open,cuncurrency
+Reassignment,Communication with vendor,cuncurrency
+Reassignment,Reopen,cuncurrency
+Reassignment,Vendor Reference,cuncurrency
+Reassignment,Urgency Change,cuncurrency
+Reassignment,Impact Change,cuncurrency
+Reassignment,Quality Indicator Fixed,cuncurrency
+Reassignment,Problem Workaround,cuncurrency
+Reassignment,Problem Closure,cuncurrency
+Reassignment,Service Change,cuncurrency
+Reassignment,Affected CI Change,cuncurrency
+Reassignment,Referred,cuncurrency
+Reassignment,Vendor Reference Change,cuncurrency
+Reassignment,Incident reproduction,cuncurrency
+Reassignment,Quality Indicator,cuncurrency
+Reassignment,Notify By Change,cuncurrency
+Reassignment,Contact Change,cuncurrency
+Reassignment,Mail to Customer,cuncurrency
+Reassignment,Quality Indicator Set,cuncurrency
+Reassignment,Callback Request,cuncurrency
+Reassignment,External update,cuncurrency
+Reassignment,External Vendor Reassignment,cuncurrency
+Reassignment,alert stage 1,independency
+Reassignment,Dial-in,independency
+Update from customer,Reassignment,cuncurrency
+Update from customer,Update from customer,cuncurrency
+Update from customer,Operator Update,cuncurrency
+Update from customer,Assignment,cuncurrency
+Update from customer,Closed,cuncurrency
+Update from customer,Caused By CI,cuncurrency
+Update from customer,Update,cuncurrency
+Update from customer,Status Change,cuncurrency
+Update from customer,Description Update,cuncurrency
+Update from customer,Analysis/Research,cuncurrency
+Update from customer,Resolved,cuncurrency
+Update from customer,OO Response,independency
+Update from customer,Communication with customer,cuncurrency
+Update from customer,External Vendor Assignment,cuncurrency
+Update from customer,Pending vendor,cuncurrency
+Update from customer,Open,cuncurrency
+Update from customer,Communication with vendor,cuncurrency
+Update from customer,Reopen,cuncurrency
+Update from customer,Vendor Reference,cuncurrency
+Update from customer,Urgency Change,cuncurrency
+Update from customer,Impact Change,cuncurrency
+Update from customer,Quality Indicator Fixed,cuncurrency
+Update from customer,Problem Workaround,independency
+Update from customer,Problem Closure,cuncurrency
+Update from customer,Service Change,cuncurrency
+Update from customer,Affected CI Change,cuncurrency
+Update from customer,Referred,independency
+Update from customer,Vendor Reference Change,independency
+Update from customer,Incident reproduction,cuncurrency
+Update from customer,Quality Indicator,cuncurrency
+Update from customer,Notify By Change,cuncurrency
+Update from customer,Contact Change,cuncurrency
+Update from customer,Mail to Customer,cuncurrency
+Update from customer,Quality Indicator Set,cuncurrency
+Update from customer,Callback Request,independency
+Update from customer,External update,cuncurrency
+Update from customer,External Vendor Reassignment,independency
+Update from customer,alert stage 1,independency
+Update from customer,Dial-in,independency
+Operator Update,Reassignment,cuncurrency
+Operator Update,Update from customer,cuncurrency
+Operator Update,Operator Update,cuncurrency
+Operator Update,Assignment,cuncurrency
+Operator Update,Closed,cuncurrency
+Operator Update,Caused By CI,cuncurrency
+Operator Update,Update,cuncurrency
+Operator Update,Status Change,cuncurrency
+Operator Update,Description Update,cuncurrency
+Operator Update,Analysis/Research,cuncurrency
+Operator Update,Resolved,cuncurrency
+Operator Update,OO Response,cuncurrency
+Operator Update,Communication with customer,cuncurrency
+Operator Update,External Vendor Assignment,cuncurrency
+Operator Update,Pending vendor,cuncurrency
+Operator Update,Open,cuncurrency
+Operator Update,Communication with vendor,cuncurrency
+Operator Update,Reopen,cuncurrency
+Operator Update,Vendor Reference,cuncurrency
+Operator Update,Urgency Change,cuncurrency
+Operator Update,Impact Change,cuncurrency
+Operator Update,Quality Indicator Fixed,cuncurrency
+Operator Update,Problem Workaround,cuncurrency
+Operator Update,Problem Closure,cuncurrency
+Operator Update,Service Change,cuncurrency
+Operator Update,Affected CI Change,cuncurrency
+Operator Update,Referred,cuncurrency
+Operator Update,Vendor Reference Change,cuncurrency
+Operator Update,Incident reproduction,cuncurrency
+Operator Update,Quality Indicator,cuncurrency
+Operator Update,Notify By Change,cuncurrency
+Operator Update,Contact Change,cuncurrency
+Operator Update,Mail to Customer,cuncurrency
+Operator Update,Quality Indicator Set,cuncurrency
+Operator Update,Callback Request,cuncurrency
+Operator Update,External update,cuncurrency
+Operator Update,External Vendor Reassignment,cuncurrency
+Operator Update,alert stage 1,cuncurrency
+Operator Update,Dial-in,cuncurrency
+Assignment,Reassignment,cuncurrency
+Assignment,Update from customer,cuncurrency
+Assignment,Operator Update,cuncurrency
+Assignment,Assignment,cuncurrency
+Assignment,Closed,cuncurrency
+Assignment,Caused By CI,cuncurrency
+Assignment,Update,cuncurrency
+Assignment,Status Change,cuncurrency
+Assignment,Description Update,cuncurrency
+Assignment,Analysis/Research,cuncurrency
+Assignment,Resolved,cuncurrency
+Assignment,OO Response,cuncurrency
+Assignment,Communication with customer,cuncurrency
+Assignment,External Vendor Assignment,cuncurrency
+Assignment,Pending vendor,cuncurrency
+Assignment,Open,cuncurrency
+Assignment,Communication with vendor,cuncurrency
+Assignment,Reopen,cuncurrency
+Assignment,Vendor Reference,cuncurrency
+Assignment,Urgency Change,cuncurrency
+Assignment,Impact Change,cuncurrency
+Assignment,Quality Indicator Fixed,cuncurrency
+Assignment,Problem Workaround,cuncurrency
+Assignment,Problem Closure,cuncurrency
+Assignment,Service Change,cuncurrency
+Assignment,Affected CI Change,cuncurrency
+Assignment,Referred,cuncurrency
+Assignment,Vendor Reference Change,cuncurrency
+Assignment,Incident reproduction,cuncurrency
+Assignment,Quality Indicator,cuncurrency
+Assignment,Notify By Change,cuncurrency
+Assignment,Contact Change,cuncurrency
+Assignment,Mail to Customer,cuncurrency
+Assignment,Quality Indicator Set,cuncurrency
+Assignment,Callback Request,cuncurrency
+Assignment,External update,cuncurrency
+Assignment,External Vendor Reassignment,cuncurrency
+Assignment,alert stage 1,independency
+Assignment,Dial-in,cuncurrency
+Closed,Reassignment,cuncurrency
+Closed,Update from customer,cuncurrency
+Closed,Operator Update,cuncurrency
+Closed,Assignment,cuncurrency
+Closed,Closed,cuncurrency
+Closed,Caused By CI,cuncurrency
+Closed,Update,cuncurrency
+Closed,Status Change,cuncurrency
+Closed,Description Update,cuncurrency
+Closed,Analysis/Research,cuncurrency
+Closed,Resolved,cuncurrency
+Closed,OO Response,cuncurrency
+Closed,Communication with customer,cuncurrency
+Closed,External Vendor Assignment,cuncurrency
+Closed,Pending vendor,cuncurrency
+Closed,Open,cuncurrency
+Closed,Communication with vendor,cuncurrency
+Closed,Reopen,cuncurrency
+Closed,Vendor Reference,cuncurrency
+Closed,Urgency Change,cuncurrency
+Closed,Impact Change,cuncurrency
+Closed,Quality Indicator Fixed,cuncurrency
+Closed,Problem Workaround,cuncurrency
+Closed,Problem Closure,cuncurrency
+Closed,Service Change,cuncurrency
+Closed,Affected CI Change,cuncurrency
+Closed,Referred,cuncurrency
+Closed,Vendor Reference Change,cuncurrency
+Closed,Incident reproduction,cuncurrency
+Closed,Quality Indicator,cuncurrency
+Closed,Notify By Change,cuncurrency
+Closed,Contact Change,cuncurrency
+Closed,Mail to Customer,cuncurrency
+Closed,Quality Indicator Set,cuncurrency
+Closed,Callback Request,cuncurrency
+Closed,External update,cuncurrency
+Closed,External Vendor Reassignment,cuncurrency
+Closed,alert stage 1,cuncurrency
+Closed,Dial-in,cuncurrency
+Caused By CI,Reassignment,cuncurrency
+Caused By CI,Update from customer,cuncurrency
+Caused By CI,Operator Update,cuncurrency
+Caused By CI,Assignment,cuncurrency
+Caused By CI,Closed,cuncurrency
+Caused By CI,Caused By CI,cuncurrency
+Caused By CI,Update,cuncurrency
+Caused By CI,Status Change,cuncurrency
+Caused By CI,Description Update,cuncurrency
+Caused By CI,Analysis/Research,cuncurrency
+Caused By CI,Resolved,cuncurrency
+Caused By CI,OO Response,independency
+Caused By CI,Communication with customer,cuncurrency
+Caused By CI,External Vendor Assignment,independency
+Caused By CI,Pending vendor,cuncurrency
+Caused By CI,Open,cuncurrency
+Caused By CI,Communication with vendor,cuncurrency
+Caused By CI,Reopen,cuncurrency
+Caused By CI,Vendor Reference,independency
+Caused By CI,Urgency Change,cuncurrency
+Caused By CI,Impact Change,cuncurrency
+Caused By CI,Quality Indicator Fixed,cuncurrency
+Caused By CI,Problem Workaround,independency
+Caused By CI,Problem Closure,independency
+Caused By CI,Service Change,cuncurrency
+Caused By CI,Affected CI Change,cuncurrency
+Caused By CI,Referred,independency
+Caused By CI,Vendor Reference Change,cuncurrency
+Caused By CI,Incident reproduction,independency
+Caused By CI,Quality Indicator,cuncurrency
+Caused By CI,Notify By Change,cuncurrency
+Caused By CI,Contact Change,cuncurrency
+Caused By CI,Mail to Customer,cuncurrency
+Caused By CI,Quality Indicator Set,cuncurrency
+Caused By CI,Callback Request,independency
+Caused By CI,External update,cuncurrency
+Caused By CI,External Vendor Reassignment,independency
+Caused By CI,alert stage 1,independency
+Caused By CI,Dial-in,independency
+Update,Reassignment,cuncurrency
+Update,Update from customer,cuncurrency
+Update,Operator Update,cuncurrency
+Update,Assignment,cuncurrency
+Update,Closed,cuncurrency
+Update,Caused By CI,cuncurrency
+Update,Update,cuncurrency
+Update,Status Change,cuncurrency
+Update,Description Update,cuncurrency
+Update,Analysis/Research,cuncurrency
+Update,Resolved,cuncurrency
+Update,OO Response,cuncurrency
+Update,Communication with customer,cuncurrency
+Update,External Vendor Assignment,cuncurrency
+Update,Pending vendor,cuncurrency
+Update,Open,cuncurrency
+Update,Communication with vendor,cuncurrency
+Update,Reopen,cuncurrency
+Update,Vendor Reference,cuncurrency
+Update,Urgency Change,cuncurrency
+Update,Impact Change,cuncurrency
+Update,Quality Indicator Fixed,cuncurrency
+Update,Problem Workaround,cuncurrency
+Update,Problem Closure,cuncurrency
+Update,Service Change,cuncurrency
+Update,Affected CI Change,cuncurrency
+Update,Referred,cuncurrency
+Update,Vendor Reference Change,cuncurrency
+Update,Incident reproduction,cuncurrency
+Update,Quality Indicator,cuncurrency
+Update,Notify By Change,cuncurrency
+Update,Contact Change,cuncurrency
+Update,Mail to Customer,cuncurrency
+Update,Quality Indicator Set,cuncurrency
+Update,Callback Request,cuncurrency
+Update,External update,cuncurrency
+Update,External Vendor Reassignment,cuncurrency
+Update,alert stage 1,independency
+Update,Dial-in,independency
+Status Change,Reassignment,cuncurrency
+Status Change,Update from customer,cuncurrency
+Status Change,Operator Update,cuncurrency
+Status Change,Assignment,cuncurrency
+Status Change,Closed,cuncurrency
+Status Change,Caused By CI,cuncurrency
+Status Change,Update,cuncurrency
+Status Change,Status Change,cuncurrency
+Status Change,Description Update,cuncurrency
+Status Change,Analysis/Research,cuncurrency
+Status Change,Resolved,cuncurrency
+Status Change,OO Response,cuncurrency
+Status Change,Communication with customer,cuncurrency
+Status Change,External Vendor Assignment,cuncurrency
+Status Change,Pending vendor,cuncurrency
+Status Change,Open,cuncurrency
+Status Change,Communication with vendor,cuncurrency
+Status Change,Reopen,cuncurrency
+Status Change,Vendor Reference,cuncurrency
+Status Change,Urgency Change,cuncurrency
+Status Change,Impact Change,cuncurrency
+Status Change,Quality Indicator Fixed,cuncurrency
+Status Change,Problem Workaround,cuncurrency
+Status Change,Problem Closure,cuncurrency
+Status Change,Service Change,cuncurrency
+Status Change,Affected CI Change,cuncurrency
+Status Change,Referred,cuncurrency
+Status Change,Vendor Reference Change,cuncurrency
+Status Change,Incident reproduction,cuncurrency
+Status Change,Quality Indicator,cuncurrency
+Status Change,Notify By Change,cuncurrency
+Status Change,Contact Change,cuncurrency
+Status Change,Mail to Customer,cuncurrency
+Status Change,Quality Indicator Set,cuncurrency
+Status Change,Callback Request,cuncurrency
+Status Change,External update,cuncurrency
+Status Change,External Vendor Reassignment,cuncurrency
+Status Change,alert stage 1,independency
+Status Change,Dial-in,independency
+Description Update,Reassignment,cuncurrency
+Description Update,Update from customer,cuncurrency
+Description Update,Operator Update,cuncurrency
+Description Update,Assignment,cuncurrency
+Description Update,Closed,cuncurrency
+Description Update,Caused By CI,cuncurrency
+Description Update,Update,cuncurrency
+Description Update,Status Change,cuncurrency
+Description Update,Description Update,cuncurrency
+Description Update,Analysis/Research,cuncurrency
+Description Update,Resolved,cuncurrency
+Description Update,OO Response,independency
+Description Update,Communication with customer,cuncurrency
+Description Update,External Vendor Assignment,cuncurrency
+Description Update,Pending vendor,cuncurrency
+Description Update,Open,cuncurrency
+Description Update,Communication with vendor,cuncurrency
+Description Update,Reopen,cuncurrency
+Description Update,Vendor Reference,cuncurrency
+Description Update,Urgency Change,cuncurrency
+Description Update,Impact Change,cuncurrency
+Description Update,Quality Indicator Fixed,cuncurrency
+Description Update,Problem Workaround,independency
+Description Update,Problem Closure,independency
+Description Update,Service Change,cuncurrency
+Description Update,Affected CI Change,cuncurrency
+Description Update,Referred,independency
+Description Update,Vendor Reference Change,cuncurrency
+Description Update,Incident reproduction,independency
+Description Update,Quality Indicator,cuncurrency
+Description Update,Notify By Change,cuncurrency
+Description Update,Contact Change,cuncurrency
+Description Update,Mail to Customer,cuncurrency
+Description Update,Quality Indicator Set,cuncurrency
+Description Update,Callback Request,cuncurrency
+Description Update,External update,independency
+Description Update,External Vendor Reassignment,cuncurrency
+Description Update,alert stage 1,independency
+Description Update,Dial-in,independency
+Analysis/Research,Reassignment,cuncurrency
+Analysis/Research,Update from customer,cuncurrency
+Analysis/Research,Operator Update,cuncurrency
+Analysis/Research,Assignment,cuncurrency
+Analysis/Research,Closed,cuncurrency
+Analysis/Research,Caused By CI,cuncurrency
+Analysis/Research,Update,cuncurrency
+Analysis/Research,Status Change,cuncurrency
+Analysis/Research,Description Update,cuncurrency
+Analysis/Research,Analysis/Research,cuncurrency
+Analysis/Research,Resolved,cuncurrency
+Analysis/Research,OO Response,independency
+Analysis/Research,Communication with customer,cuncurrency
+Analysis/Research,External Vendor Assignment,cuncurrency
+Analysis/Research,Pending vendor,cuncurrency
+Analysis/Research,Open,cuncurrency
+Analysis/Research,Communication with vendor,cuncurrency
+Analysis/Research,Reopen,cuncurrency
+Analysis/Research,Vendor Reference,independency
+Analysis/Research,Urgency Change,cuncurrency
+Analysis/Research,Impact Change,cuncurrency
+Analysis/Research,Quality Indicator Fixed,cuncurrency
+Analysis/Research,Problem Workaround,independency
+Analysis/Research,Problem Closure,independency
+Analysis/Research,Service Change,cuncurrency
+Analysis/Research,Affected CI Change,cuncurrency
+Analysis/Research,Referred,cuncurrency
+Analysis/Research,Vendor Reference Change,independency
+Analysis/Research,Incident reproduction,cuncurrency
+Analysis/Research,Quality Indicator,independency
+Analysis/Research,Notify By Change,cuncurrency
+Analysis/Research,Contact Change,independency
+Analysis/Research,Mail to Customer,cuncurrency
+Analysis/Research,Quality Indicator Set,cuncurrency
+Analysis/Research,Callback Request,independency
+Analysis/Research,External update,cuncurrency
+Analysis/Research,External Vendor Reassignment,independency
+Analysis/Research,alert stage 1,independency
+Analysis/Research,Dial-in,independency
+Resolved,Reassignment,cuncurrency
+Resolved,Update from customer,cuncurrency
+Resolved,Operator Update,cuncurrency
+Resolved,Assignment,cuncurrency
+Resolved,Closed,cuncurrency
+Resolved,Caused By CI,cuncurrency
+Resolved,Update,cuncurrency
+Resolved,Status Change,cuncurrency
+Resolved,Description Update,cuncurrency
+Resolved,Analysis/Research,cuncurrency
+Resolved,Resolved,independency
+Resolved,OO Response,independency
+Resolved,Communication with customer,cuncurrency
+Resolved,External Vendor Assignment,cuncurrency
+Resolved,Pending vendor,cuncurrency
+Resolved,Open,cuncurrency
+Resolved,Communication with vendor,cuncurrency
+Resolved,Reopen,cuncurrency
+Resolved,Vendor Reference,cuncurrency
+Resolved,Urgency Change,cuncurrency
+Resolved,Impact Change,independency
+Resolved,Quality Indicator Fixed,cuncurrency
+Resolved,Problem Workaround,cuncurrency
+Resolved,Problem Closure,cuncurrency
+Resolved,Service Change,independency
+Resolved,Affected CI Change,independency
+Resolved,Referred,independency
+Resolved,Vendor Reference Change,cuncurrency
+Resolved,Incident reproduction,independency
+Resolved,Quality Indicator,cuncurrency
+Resolved,Notify By Change,cuncurrency
+Resolved,Contact Change,independency
+Resolved,Mail to Customer,cuncurrency
+Resolved,Quality Indicator Set,cuncurrency
+Resolved,Callback Request,independency
+Resolved,External update,cuncurrency
+Resolved,External Vendor Reassignment,cuncurrency
+Resolved,alert stage 1,independency
+Resolved,Dial-in,independency
+OO Response,Reassignment,cuncurrency
+OO Response,Update from customer,independency
+OO Response,Operator Update,cuncurrency
+OO Response,Assignment,cuncurrency
+OO Response,Closed,cuncurrency
+OO Response,Caused By CI,independency
+OO Response,Update,cuncurrency
+OO Response,Status Change,cuncurrency
+OO Response,Description Update,independency
+OO Response,Analysis/Research,independency
+OO Response,Resolved,independency
+OO Response,OO Response,independency
+OO Response,Communication with customer,independency
+OO Response,External Vendor Assignment,independency
+OO Response,Pending vendor,independency
+OO Response,Open,cuncurrency
+OO Response,Communication with vendor,independency
+OO Response,Reopen,independency
+OO Response,Vendor Reference,independency
+OO Response,Urgency Change,independency
+OO Response,Impact Change,independency
+OO Response,Quality Indicator Fixed,independency
+OO Response,Problem Workaround,independency
+OO Response,Problem Closure,independency
+OO Response,Service Change,independency
+OO Response,Affected CI Change,independency
+OO Response,Referred,independency
+OO Response,Vendor Reference Change,independency
+OO Response,Incident reproduction,independency
+OO Response,Quality Indicator,independency
+OO Response,Notify By Change,independency
+OO Response,Contact Change,independency
+OO Response,Mail to Customer,independency
+OO Response,Quality Indicator Set,independency
+OO Response,Callback Request,independency
+OO Response,External update,independency
+OO Response,External Vendor Reassignment,independency
+OO Response,alert stage 1,independency
+OO Response,Dial-in,independency
+Communication with customer,Reassignment,cuncurrency
+Communication with customer,Update from customer,cuncurrency
+Communication with customer,Operator Update,cuncurrency
+Communication with customer,Assignment,cuncurrency
+Communication with customer,Closed,cuncurrency
+Communication with customer,Caused By CI,cuncurrency
+Communication with customer,Update,cuncurrency
+Communication with customer,Status Change,cuncurrency
+Communication with customer,Description Update,cuncurrency
+Communication with customer,Analysis/Research,cuncurrency
+Communication with customer,Resolved,cuncurrency
+Communication with customer,OO Response,independency
+Communication with customer,Communication with customer,cuncurrency
+Communication with customer,External Vendor Assignment,cuncurrency
+Communication with customer,Pending vendor,cuncurrency
+Communication with customer,Open,cuncurrency
+Communication with customer,Communication with vendor,cuncurrency
+Communication with customer,Reopen,cuncurrency
+Communication with customer,Vendor Reference,cuncurrency
+Communication with customer,Urgency Change,cuncurrency
+Communication with customer,Impact Change,cuncurrency
+Communication with customer,Quality Indicator Fixed,cuncurrency
+Communication with customer,Problem Workaround,cuncurrency
+Communication with customer,Problem Closure,cuncurrency
+Communication with customer,Service Change,independency
+Communication with customer,Affected CI Change,cuncurrency
+Communication with customer,Referred,independency
+Communication with customer,Vendor Reference Change,cuncurrency
+Communication with customer,Incident reproduction,cuncurrency
+Communication with customer,Quality Indicator,cuncurrency
+Communication with customer,Notify By Change,cuncurrency
+Communication with customer,Contact Change,cuncurrency
+Communication with customer,Mail to Customer,cuncurrency
+Communication with customer,Quality Indicator Set,cuncurrency
+Communication with customer,Callback Request,cuncurrency
+Communication with customer,External update,cuncurrency
+Communication with customer,External Vendor Reassignment,independency
+Communication with customer,alert stage 1,independency
+Communication with customer,Dial-in,independency
+External Vendor Assignment,Reassignment,cuncurrency
+External Vendor Assignment,Update from customer,cuncurrency
+External Vendor Assignment,Operator Update,cuncurrency
+External Vendor Assignment,Assignment,cuncurrency
+External Vendor Assignment,Closed,cuncurrency
+External Vendor Assignment,Caused By CI,independency
+External Vendor Assignment,Update,cuncurrency
+External Vendor Assignment,Status Change,cuncurrency
+External Vendor Assignment,Description Update,cuncurrency
+External Vendor Assignment,Analysis/Research,cuncurrency
+External Vendor Assignment,Resolved,cuncurrency
+External Vendor Assignment,OO Response,independency
+External Vendor Assignment,Communication with customer,cuncurrency
+External Vendor Assignment,External Vendor Assignment,independency
+External Vendor Assignment,Pending vendor,cuncurrency
+External Vendor Assignment,Open,cuncurrency
+External Vendor Assignment,Communication with vendor,cuncurrency
+External Vendor Assignment,Reopen,cuncurrency
+External Vendor Assignment,Vendor Reference,cuncurrency
+External Vendor Assignment,Urgency Change,cuncurrency
+External Vendor Assignment,Impact Change,cuncurrency
+External Vendor Assignment,Quality Indicator Fixed,cuncurrency
+External Vendor Assignment,Problem Workaround,independency
+External Vendor Assignment,Problem Closure,independency
+External Vendor Assignment,Service Change,independency
+External Vendor Assignment,Affected CI Change,cuncurrency
+External Vendor Assignment,Referred,cuncurrency
+External Vendor Assignment,Vendor Reference Change,cuncurrency
+External Vendor Assignment,Incident reproduction,independency
+External Vendor Assignment,Quality Indicator,cuncurrency
+External Vendor Assignment,Notify By Change,cuncurrency
+External Vendor Assignment,Contact Change,cuncurrency
+External Vendor Assignment,Mail to Customer,cuncurrency
+External Vendor Assignment,Quality Indicator Set,cuncurrency
+External Vendor Assignment,Callback Request,independency
+External Vendor Assignment,External update,cuncurrency
+External Vendor Assignment,External Vendor Reassignment,cuncurrency
+External Vendor Assignment,alert stage 1,independency
+External Vendor Assignment,Dial-in,independency
+Pending vendor,Reassignment,cuncurrency
+Pending vendor,Update from customer,cuncurrency
+Pending vendor,Operator Update,cuncurrency
+Pending vendor,Assignment,cuncurrency
+Pending vendor,Closed,cuncurrency
+Pending vendor,Caused By CI,cuncurrency
+Pending vendor,Update,cuncurrency
+Pending vendor,Status Change,cuncurrency
+Pending vendor,Description Update,cuncurrency
+Pending vendor,Analysis/Research,cuncurrency
+Pending vendor,Resolved,cuncurrency
+Pending vendor,OO Response,independency
+Pending vendor,Communication with customer,cuncurrency
+Pending vendor,External Vendor Assignment,cuncurrency
+Pending vendor,Pending vendor,cuncurrency
+Pending vendor,Open,cuncurrency
+Pending vendor,Communication with vendor,cuncurrency
+Pending vendor,Reopen,cuncurrency
+Pending vendor,Vendor Reference,cuncurrency
+Pending vendor,Urgency Change,cuncurrency
+Pending vendor,Impact Change,independency
+Pending vendor,Quality Indicator Fixed,cuncurrency
+Pending vendor,Problem Workaround,independency
+Pending vendor,Problem Closure,independency
+Pending vendor,Service Change,cuncurrency
+Pending vendor,Affected CI Change,independency
+Pending vendor,Referred,cuncurrency
+Pending vendor,Vendor Reference Change,independency
+Pending vendor,Incident reproduction,independency
+Pending vendor,Quality Indicator,cuncurrency
+Pending vendor,Notify By Change,cuncurrency
+Pending vendor,Contact Change,independency
+Pending vendor,Mail to Customer,cuncurrency
+Pending vendor,Quality Indicator Set,cuncurrency
+Pending vendor,Callback Request,independency
+Pending vendor,External update,independency
+Pending vendor,External Vendor Reassignment,cuncurrency
+Pending vendor,alert stage 1,independency
+Pending vendor,Dial-in,independency
+Open,Reassignment,cuncurrency
+Open,Update from customer,cuncurrency
+Open,Operator Update,cuncurrency
+Open,Assignment,cuncurrency
+Open,Closed,cuncurrency
+Open,Caused By CI,cuncurrency
+Open,Update,cuncurrency
+Open,Status Change,cuncurrency
+Open,Description Update,cuncurrency
+Open,Analysis/Research,cuncurrency
+Open,Resolved,cuncurrency
+Open,OO Response,cuncurrency
+Open,Communication with customer,cuncurrency
+Open,External Vendor Assignment,cuncurrency
+Open,Pending vendor,cuncurrency
+Open,Open,cuncurrency
+Open,Communication with vendor,cuncurrency
+Open,Reopen,cuncurrency
+Open,Vendor Reference,cuncurrency
+Open,Urgency Change,cuncurrency
+Open,Impact Change,cuncurrency
+Open,Quality Indicator Fixed,cuncurrency
+Open,Problem Workaround,independency
+Open,Problem Closure,independency
+Open,Service Change,cuncurrency
+Open,Affected CI Change,cuncurrency
+Open,Referred,cuncurrency
+Open,Vendor Reference Change,cuncurrency
+Open,Incident reproduction,independency
+Open,Quality Indicator,cuncurrency
+Open,Notify By Change,cuncurrency
+Open,Contact Change,cuncurrency
+Open,Mail to Customer,cuncurrency
+Open,Quality Indicator Set,cuncurrency
+Open,Callback Request,independency
+Open,External update,cuncurrency
+Open,External Vendor Reassignment,cuncurrency
+Open,alert stage 1,independency
+Open,Dial-in,independency
+Communication with vendor,Reassignment,cuncurrency
+Communication with vendor,Update from customer,cuncurrency
+Communication with vendor,Operator Update,cuncurrency
+Communication with vendor,Assignment,cuncurrency
+Communication with vendor,Closed,cuncurrency
+Communication with vendor,Caused By CI,cuncurrency
+Communication with vendor,Update,cuncurrency
+Communication with vendor,Status Change,cuncurrency
+Communication with vendor,Description Update,cuncurrency
+Communication with vendor,Analysis/Research,cuncurrency
+Communication with vendor,Resolved,cuncurrency
+Communication with vendor,OO Response,independency
+Communication with vendor,Communication with customer,cuncurrency
+Communication with vendor,External Vendor Assignment,cuncurrency
+Communication with vendor,Pending vendor,cuncurrency
+Communication with vendor,Open,cuncurrency
+Communication with vendor,Communication with vendor,cuncurrency
+Communication with vendor,Reopen,cuncurrency
+Communication with vendor,Vendor Reference,cuncurrency
+Communication with vendor,Urgency Change,cuncurrency
+Communication with vendor,Impact Change,cuncurrency
+Communication with vendor,Quality Indicator Fixed,cuncurrency
+Communication with vendor,Problem Workaround,independency
+Communication with vendor,Problem Closure,independency
+Communication with vendor,Service Change,cuncurrency
+Communication with vendor,Affected CI Change,independency
+Communication with vendor,Referred,cuncurrency
+Communication with vendor,Vendor Reference Change,cuncurrency
+Communication with vendor,Incident reproduction,cuncurrency
+Communication with vendor,Quality Indicator,cuncurrency
+Communication with vendor,Notify By Change,independency
+Communication with vendor,Contact Change,independency
+Communication with vendor,Mail to Customer,cuncurrency
+Communication with vendor,Quality Indicator Set,cuncurrency
+Communication with vendor,Callback Request,independency
+Communication with vendor,External update,cuncurrency
+Communication with vendor,External Vendor Reassignment,cuncurrency
+Communication with vendor,alert stage 1,independency
+Communication with vendor,Dial-in,independency
+Reopen,Reassignment,cuncurrency
+Reopen,Update from customer,cuncurrency
+Reopen,Operator Update,cuncurrency
+Reopen,Assignment,cuncurrency
+Reopen,Closed,cuncurrency
+Reopen,Caused By CI,cuncurrency
+Reopen,Update,cuncurrency
+Reopen,Status Change,cuncurrency
+Reopen,Description Update,cuncurrency
+Reopen,Analysis/Research,cuncurrency
+Reopen,Resolved,cuncurrency
+Reopen,OO Response,independency
+Reopen,Communication with customer,cuncurrency
+Reopen,External Vendor Assignment,cuncurrency
+Reopen,Pending vendor,cuncurrency
+Reopen,Open,cuncurrency
+Reopen,Communication with vendor,cuncurrency
+Reopen,Reopen,independency
+Reopen,Vendor Reference,independency
+Reopen,Urgency Change,independency
+Reopen,Impact Change,cuncurrency
+Reopen,Quality Indicator Fixed,cuncurrency
+Reopen,Problem Workaround,independency
+Reopen,Problem Closure,independency
+Reopen,Service Change,independency
+Reopen,Affected CI Change,independency
+Reopen,Referred,independency
+Reopen,Vendor Reference Change,cuncurrency
+Reopen,Incident reproduction,cuncurrency
+Reopen,Quality Indicator,cuncurrency
+Reopen,Notify By Change,cuncurrency
+Reopen,Contact Change,cuncurrency
+Reopen,Mail to Customer,cuncurrency
+Reopen,Quality Indicator Set,independency
+Reopen,Callback Request,independency
+Reopen,External update,independency
+Reopen,External Vendor Reassignment,independency
+Reopen,alert stage 1,independency
+Reopen,Dial-in,independency
+Vendor Reference,Reassignment,cuncurrency
+Vendor Reference,Update from customer,cuncurrency
+Vendor Reference,Operator Update,cuncurrency
+Vendor Reference,Assignment,cuncurrency
+Vendor Reference,Closed,cuncurrency
+Vendor Reference,Caused By CI,independency
+Vendor Reference,Update,cuncurrency
+Vendor Reference,Status Change,cuncurrency
+Vendor Reference,Description Update,cuncurrency
+Vendor Reference,Analysis/Research,independency
+Vendor Reference,Resolved,cuncurrency
+Vendor Reference,OO Response,independency
+Vendor Reference,Communication with customer,cuncurrency
+Vendor Reference,External Vendor Assignment,cuncurrency
+Vendor Reference,Pending vendor,cuncurrency
+Vendor Reference,Open,cuncurrency
+Vendor Reference,Communication with vendor,cuncurrency
+Vendor Reference,Reopen,independency
+Vendor Reference,Vendor Reference,independency
+Vendor Reference,Urgency Change,independency
+Vendor Reference,Impact Change,cuncurrency
+Vendor Reference,Quality Indicator Fixed,independency
+Vendor Reference,Problem Workaround,independency
+Vendor Reference,Problem Closure,independency
+Vendor Reference,Service Change,independency
+Vendor Reference,Affected CI Change,independency
+Vendor Reference,Referred,cuncurrency
+Vendor Reference,Vendor Reference Change,cuncurrency
+Vendor Reference,Incident reproduction,cuncurrency
+Vendor Reference,Quality Indicator,independency
+Vendor Reference,Notify By Change,independency
+Vendor Reference,Contact Change,independency
+Vendor Reference,Mail to Customer,independency
+Vendor Reference,Quality Indicator Set,cuncurrency
+Vendor Reference,Callback Request,independency
+Vendor Reference,External update,independency
+Vendor Reference,External Vendor Reassignment,cuncurrency
+Vendor Reference,alert stage 1,independency
+Vendor Reference,Dial-in,independency
+Urgency Change,Reassignment,cuncurrency
+Urgency Change,Update from customer,cuncurrency
+Urgency Change,Operator Update,cuncurrency
+Urgency Change,Assignment,cuncurrency
+Urgency Change,Closed,cuncurrency
+Urgency Change,Caused By CI,cuncurrency
+Urgency Change,Update,cuncurrency
+Urgency Change,Status Change,cuncurrency
+Urgency Change,Description Update,cuncurrency
+Urgency Change,Analysis/Research,cuncurrency
+Urgency Change,Resolved,cuncurrency
+Urgency Change,OO Response,independency
+Urgency Change,Communication with customer,cuncurrency
+Urgency Change,External Vendor Assignment,cuncurrency
+Urgency Change,Pending vendor,cuncurrency
+Urgency Change,Open,cuncurrency
+Urgency Change,Communication with vendor,cuncurrency
+Urgency Change,Reopen,independency
+Urgency Change,Vendor Reference,independency
+Urgency Change,Urgency Change,cuncurrency
+Urgency Change,Impact Change,cuncurrency
+Urgency Change,Quality Indicator Fixed,cuncurrency
+Urgency Change,Problem Workaround,independency
+Urgency Change,Problem Closure,independency
+Urgency Change,Service Change,cuncurrency
+Urgency Change,Affected CI Change,cuncurrency
+Urgency Change,Referred,independency
+Urgency Change,Vendor Reference Change,independency
+Urgency Change,Incident reproduction,independency
+Urgency Change,Quality Indicator,independency
+Urgency Change,Notify By Change,cuncurrency
+Urgency Change,Contact Change,cuncurrency
+Urgency Change,Mail to Customer,cuncurrency
+Urgency Change,Quality Indicator Set,cuncurrency
+Urgency Change,Callback Request,independency
+Urgency Change,External update,cuncurrency
+Urgency Change,External Vendor Reassignment,independency
+Urgency Change,alert stage 1,independency
+Urgency Change,Dial-in,independency
+Impact Change,Reassignment,cuncurrency
+Impact Change,Update from customer,cuncurrency
+Impact Change,Operator Update,cuncurrency
+Impact Change,Assignment,cuncurrency
+Impact Change,Closed,cuncurrency
+Impact Change,Caused By CI,cuncurrency
+Impact Change,Update,cuncurrency
+Impact Change,Status Change,cuncurrency
+Impact Change,Description Update,cuncurrency
+Impact Change,Analysis/Research,cuncurrency
+Impact Change,Resolved,independency
+Impact Change,OO Response,independency
+Impact Change,Communication with customer,cuncurrency
+Impact Change,External Vendor Assignment,cuncurrency
+Impact Change,Pending vendor,independency
+Impact Change,Open,cuncurrency
+Impact Change,Communication with vendor,cuncurrency
+Impact Change,Reopen,cuncurrency
+Impact Change,Vendor Reference,cuncurrency
+Impact Change,Urgency Change,cuncurrency
+Impact Change,Impact Change,cuncurrency
+Impact Change,Quality Indicator Fixed,cuncurrency
+Impact Change,Problem Workaround,independency
+Impact Change,Problem Closure,independency
+Impact Change,Service Change,cuncurrency
+Impact Change,Affected CI Change,cuncurrency
+Impact Change,Referred,independency
+Impact Change,Vendor Reference Change,cuncurrency
+Impact Change,Incident reproduction,independency
+Impact Change,Quality Indicator,independency
+Impact Change,Notify By Change,cuncurrency
+Impact Change,Contact Change,cuncurrency
+Impact Change,Mail to Customer,cuncurrency
+Impact Change,Quality Indicator Set,cuncurrency
+Impact Change,Callback Request,independency
+Impact Change,External update,independency
+Impact Change,External Vendor Reassignment,independency
+Impact Change,alert stage 1,independency
+Impact Change,Dial-in,independency
+Quality Indicator Fixed,Reassignment,cuncurrency
+Quality Indicator Fixed,Update from customer,cuncurrency
+Quality Indicator Fixed,Operator Update,cuncurrency
+Quality Indicator Fixed,Assignment,cuncurrency
+Quality Indicator Fixed,Closed,cuncurrency
+Quality Indicator Fixed,Caused By CI,cuncurrency
+Quality Indicator Fixed,Update,cuncurrency
+Quality Indicator Fixed,Status Change,cuncurrency
+Quality Indicator Fixed,Description Update,cuncurrency
+Quality Indicator Fixed,Analysis/Research,cuncurrency
+Quality Indicator Fixed,Resolved,cuncurrency
+Quality Indicator Fixed,OO Response,independency
+Quality Indicator Fixed,Communication with customer,cuncurrency
+Quality Indicator Fixed,External Vendor Assignment,cuncurrency
+Quality Indicator Fixed,Pending vendor,cuncurrency
+Quality Indicator Fixed,Open,cuncurrency
+Quality Indicator Fixed,Communication with vendor,cuncurrency
+Quality Indicator Fixed,Reopen,cuncurrency
+Quality Indicator Fixed,Vendor Reference,independency
+Quality Indicator Fixed,Urgency Change,cuncurrency
+Quality Indicator Fixed,Impact Change,cuncurrency
+Quality Indicator Fixed,Quality Indicator Fixed,cuncurrency
+Quality Indicator Fixed,Problem Workaround,independency
+Quality Indicator Fixed,Problem Closure,independency
+Quality Indicator Fixed,Service Change,independency
+Quality Indicator Fixed,Affected CI Change,cuncurrency
+Quality Indicator Fixed,Referred,independency
+Quality Indicator Fixed,Vendor Reference Change,independency
+Quality Indicator Fixed,Incident reproduction,independency
+Quality Indicator Fixed,Quality Indicator,independency
+Quality Indicator Fixed,Notify By Change,cuncurrency
+Quality Indicator Fixed,Contact Change,cuncurrency
+Quality Indicator Fixed,Mail to Customer,cuncurrency
+Quality Indicator Fixed,Quality Indicator Set,cuncurrency
+Quality Indicator Fixed,Callback Request,independency
+Quality Indicator Fixed,External update,independency
+Quality Indicator Fixed,External Vendor Reassignment,independency
+Quality Indicator Fixed,alert stage 1,independency
+Quality Indicator Fixed,Dial-in,independency
+Problem Workaround,Reassignment,cuncurrency
+Problem Workaround,Update from customer,independency
+Problem Workaround,Operator Update,cuncurrency
+Problem Workaround,Assignment,cuncurrency
+Problem Workaround,Closed,cuncurrency
+Problem Workaround,Caused By CI,independency
+Problem Workaround,Update,cuncurrency
+Problem Workaround,Status Change,cuncurrency
+Problem Workaround,Description Update,independency
+Problem Workaround,Analysis/Research,independency
+Problem Workaround,Resolved,cuncurrency
+Problem Workaround,OO Response,independency
+Problem Workaround,Communication with customer,cuncurrency
+Problem Workaround,External Vendor Assignment,independency
+Problem Workaround,Pending vendor,independency
+Problem Workaround,Open,independency
+Problem Workaround,Communication with vendor,independency
+Problem Workaround,Reopen,independency
+Problem Workaround,Vendor Reference,independency
+Problem Workaround,Urgency Change,independency
+Problem Workaround,Impact Change,independency
+Problem Workaround,Quality Indicator Fixed,independency
+Problem Workaround,Problem Workaround,cuncurrency
+Problem Workaround,Problem Closure,independency
+Problem Workaround,Service Change,independency
+Problem Workaround,Affected CI Change,independency
+Problem Workaround,Referred,independency
+Problem Workaround,Vendor Reference Change,independency
+Problem Workaround,Incident reproduction,independency
+Problem Workaround,Quality Indicator,independency
+Problem Workaround,Notify By Change,independency
+Problem Workaround,Contact Change,independency
+Problem Workaround,Mail to Customer,independency
+Problem Workaround,Quality Indicator Set,independency
+Problem Workaround,Callback Request,independency
+Problem Workaround,External update,cuncurrency
+Problem Workaround,External Vendor Reassignment,independency
+Problem Workaround,alert stage 1,independency
+Problem Workaround,Dial-in,independency
+Problem Closure,Reassignment,cuncurrency
+Problem Closure,Update from customer,cuncurrency
+Problem Closure,Operator Update,cuncurrency
+Problem Closure,Assignment,cuncurrency
+Problem Closure,Closed,cuncurrency
+Problem Closure,Caused By CI,independency
+Problem Closure,Update,cuncurrency
+Problem Closure,Status Change,cuncurrency
+Problem Closure,Description Update,independency
+Problem Closure,Analysis/Research,independency
+Problem Closure,Resolved,cuncurrency
+Problem Closure,OO Response,independency
+Problem Closure,Communication with customer,cuncurrency
+Problem Closure,External Vendor Assignment,independency
+Problem Closure,Pending vendor,independency
+Problem Closure,Open,independency
+Problem Closure,Communication with vendor,independency
+Problem Closure,Reopen,independency
+Problem Closure,Vendor Reference,independency
+Problem Closure,Urgency Change,independency
+Problem Closure,Impact Change,independency
+Problem Closure,Quality Indicator Fixed,independency
+Problem Closure,Problem Workaround,independency
+Problem Closure,Problem Closure,cuncurrency
+Problem Closure,Service Change,independency
+Problem Closure,Affected CI Change,independency
+Problem Closure,Referred,independency
+Problem Closure,Vendor Reference Change,independency
+Problem Closure,Incident reproduction,independency
+Problem Closure,Quality Indicator,independency
+Problem Closure,Notify By Change,independency
+Problem Closure,Contact Change,independency
+Problem Closure,Mail to Customer,independency
+Problem Closure,Quality Indicator Set,independency
+Problem Closure,Callback Request,independency
+Problem Closure,External update,independency
+Problem Closure,External Vendor Reassignment,independency
+Problem Closure,alert stage 1,independency
+Problem Closure,Dial-in,independency
+Service Change,Reassignment,cuncurrency
+Service Change,Update from customer,cuncurrency
+Service Change,Operator Update,cuncurrency
+Service Change,Assignment,cuncurrency
+Service Change,Closed,cuncurrency
+Service Change,Caused By CI,cuncurrency
+Service Change,Update,cuncurrency
+Service Change,Status Change,cuncurrency
+Service Change,Description Update,cuncurrency
+Service Change,Analysis/Research,cuncurrency
+Service Change,Resolved,independency
+Service Change,OO Response,independency
+Service Change,Communication with customer,independency
+Service Change,External Vendor Assignment,independency
+Service Change,Pending vendor,cuncurrency
+Service Change,Open,cuncurrency
+Service Change,Communication with vendor,cuncurrency
+Service Change,Reopen,independency
+Service Change,Vendor Reference,independency
+Service Change,Urgency Change,cuncurrency
+Service Change,Impact Change,cuncurrency
+Service Change,Quality Indicator Fixed,independency
+Service Change,Problem Workaround,independency
+Service Change,Problem Closure,independency
+Service Change,Service Change,independency
+Service Change,Affected CI Change,cuncurrency
+Service Change,Referred,independency
+Service Change,Vendor Reference Change,independency
+Service Change,Incident reproduction,independency
+Service Change,Quality Indicator,independency
+Service Change,Notify By Change,independency
+Service Change,Contact Change,independency
+Service Change,Mail to Customer,independency
+Service Change,Quality Indicator Set,independency
+Service Change,Callback Request,independency
+Service Change,External update,independency
+Service Change,External Vendor Reassignment,independency
+Service Change,alert stage 1,independency
+Service Change,Dial-in,independency
+Affected CI Change,Reassignment,cuncurrency
+Affected CI Change,Update from customer,cuncurrency
+Affected CI Change,Operator Update,cuncurrency
+Affected CI Change,Assignment,cuncurrency
+Affected CI Change,Closed,cuncurrency
+Affected CI Change,Caused By CI,cuncurrency
+Affected CI Change,Update,cuncurrency
+Affected CI Change,Status Change,cuncurrency
+Affected CI Change,Description Update,cuncurrency
+Affected CI Change,Analysis/Research,cuncurrency
+Affected CI Change,Resolved,independency
+Affected CI Change,OO Response,independency
+Affected CI Change,Communication with customer,cuncurrency
+Affected CI Change,External Vendor Assignment,cuncurrency
+Affected CI Change,Pending vendor,independency
+Affected CI Change,Open,cuncurrency
+Affected CI Change,Communication with vendor,independency
+Affected CI Change,Reopen,independency
+Affected CI Change,Vendor Reference,independency
+Affected CI Change,Urgency Change,cuncurrency
+Affected CI Change,Impact Change,cuncurrency
+Affected CI Change,Quality Indicator Fixed,cuncurrency
+Affected CI Change,Problem Workaround,independency
+Affected CI Change,Problem Closure,independency
+Affected CI Change,Service Change,cuncurrency
+Affected CI Change,Affected CI Change,independency
+Affected CI Change,Referred,independency
+Affected CI Change,Vendor Reference Change,independency
+Affected CI Change,Incident reproduction,independency
+Affected CI Change,Quality Indicator,independency
+Affected CI Change,Notify By Change,cuncurrency
+Affected CI Change,Contact Change,cuncurrency
+Affected CI Change,Mail to Customer,independency
+Affected CI Change,Quality Indicator Set,independency
+Affected CI Change,Callback Request,independency
+Affected CI Change,External update,independency
+Affected CI Change,External Vendor Reassignment,independency
+Affected CI Change,alert stage 1,independency
+Affected CI Change,Dial-in,independency
+Referred,Reassignment,cuncurrency
+Referred,Update from customer,independency
+Referred,Operator Update,cuncurrency
+Referred,Assignment,cuncurrency
+Referred,Closed,cuncurrency
+Referred,Caused By CI,independency
+Referred,Update,cuncurrency
+Referred,Status Change,cuncurrency
+Referred,Description Update,independency
+Referred,Analysis/Research,cuncurrency
+Referred,Resolved,independency
+Referred,OO Response,independency
+Referred,Communication with customer,independency
+Referred,External Vendor Assignment,cuncurrency
+Referred,Pending vendor,cuncurrency
+Referred,Open,cuncurrency
+Referred,Communication with vendor,cuncurrency
+Referred,Reopen,independency
+Referred,Vendor Reference,cuncurrency
+Referred,Urgency Change,independency
+Referred,Impact Change,independency
+Referred,Quality Indicator Fixed,independency
+Referred,Problem Workaround,independency
+Referred,Problem Closure,independency
+Referred,Service Change,independency
+Referred,Affected CI Change,independency
+Referred,Referred,cuncurrency
+Referred,Vendor Reference Change,cuncurrency
+Referred,Incident reproduction,independency
+Referred,Quality Indicator,independency
+Referred,Notify By Change,independency
+Referred,Contact Change,independency
+Referred,Mail to Customer,independency
+Referred,Quality Indicator Set,independency
+Referred,Callback Request,independency
+Referred,External update,independency
+Referred,External Vendor Reassignment,independency
+Referred,alert stage 1,independency
+Referred,Dial-in,independency
+Vendor Reference Change,Reassignment,cuncurrency
+Vendor Reference Change,Update from customer,independency
+Vendor Reference Change,Operator Update,cuncurrency
+Vendor Reference Change,Assignment,cuncurrency
+Vendor Reference Change,Closed,cuncurrency
+Vendor Reference Change,Caused By CI,cuncurrency
+Vendor Reference Change,Update,cuncurrency
+Vendor Reference Change,Status Change,cuncurrency
+Vendor Reference Change,Description Update,cuncurrency
+Vendor Reference Change,Analysis/Research,independency
+Vendor Reference Change,Resolved,cuncurrency
+Vendor Reference Change,OO Response,independency
+Vendor Reference Change,Communication with customer,cuncurrency
+Vendor Reference Change,External Vendor Assignment,cuncurrency
+Vendor Reference Change,Pending vendor,independency
+Vendor Reference Change,Open,cuncurrency
+Vendor Reference Change,Communication with vendor,cuncurrency
+Vendor Reference Change,Reopen,cuncurrency
+Vendor Reference Change,Vendor Reference,cuncurrency
+Vendor Reference Change,Urgency Change,independency
+Vendor Reference Change,Impact Change,cuncurrency
+Vendor Reference Change,Quality Indicator Fixed,independency
+Vendor Reference Change,Problem Workaround,independency
+Vendor Reference Change,Problem Closure,independency
+Vendor Reference Change,Service Change,independency
+Vendor Reference Change,Affected CI Change,independency
+Vendor Reference Change,Referred,cuncurrency
+Vendor Reference Change,Vendor Reference Change,cuncurrency
+Vendor Reference Change,Incident reproduction,independency
+Vendor Reference Change,Quality Indicator,independency
+Vendor Reference Change,Notify By Change,independency
+Vendor Reference Change,Contact Change,independency
+Vendor Reference Change,Mail to Customer,independency
+Vendor Reference Change,Quality Indicator Set,independency
+Vendor Reference Change,Callback Request,independency
+Vendor Reference Change,External update,independency
+Vendor Reference Change,External Vendor Reassignment,cuncurrency
+Vendor Reference Change,alert stage 1,independency
+Vendor Reference Change,Dial-in,independency
+Incident reproduction,Reassignment,cuncurrency
+Incident reproduction,Update from customer,cuncurrency
+Incident reproduction,Operator Update,cuncurrency
+Incident reproduction,Assignment,cuncurrency
+Incident reproduction,Closed,cuncurrency
+Incident reproduction,Caused By CI,independency
+Incident reproduction,Update,cuncurrency
+Incident reproduction,Status Change,cuncurrency
+Incident reproduction,Description Update,independency
+Incident reproduction,Analysis/Research,cuncurrency
+Incident reproduction,Resolved,independency
+Incident reproduction,OO Response,independency
+Incident reproduction,Communication with customer,cuncurrency
+Incident reproduction,External Vendor Assignment,independency
+Incident reproduction,Pending vendor,independency
+Incident reproduction,Open,independency
+Incident reproduction,Communication with vendor,cuncurrency
+Incident reproduction,Reopen,cuncurrency
+Incident reproduction,Vendor Reference,cuncurrency
+Incident reproduction,Urgency Change,independency
+Incident reproduction,Impact Change,independency
+Incident reproduction,Quality Indicator Fixed,independency
+Incident reproduction,Problem Workaround,independency
+Incident reproduction,Problem Closure,independency
+Incident reproduction,Service Change,independency
+Incident reproduction,Affected CI Change,independency
+Incident reproduction,Referred,independency
+Incident reproduction,Vendor Reference Change,independency
+Incident reproduction,Incident reproduction,cuncurrency
+Incident reproduction,Quality Indicator,independency
+Incident reproduction,Notify By Change,independency
+Incident reproduction,Contact Change,independency
+Incident reproduction,Mail to Customer,independency
+Incident reproduction,Quality Indicator Set,cuncurrency
+Incident reproduction,Callback Request,independency
+Incident reproduction,External update,independency
+Incident reproduction,External Vendor Reassignment,independency
+Incident reproduction,alert stage 1,independency
+Incident reproduction,Dial-in,independency
+Quality Indicator,Reassignment,cuncurrency
+Quality Indicator,Update from customer,cuncurrency
+Quality Indicator,Operator Update,cuncurrency
+Quality Indicator,Assignment,cuncurrency
+Quality Indicator,Closed,cuncurrency
+Quality Indicator,Caused By CI,cuncurrency
+Quality Indicator,Update,cuncurrency
+Quality Indicator,Status Change,cuncurrency
+Quality Indicator,Description Update,cuncurrency
+Quality Indicator,Analysis/Research,independency
+Quality Indicator,Resolved,cuncurrency
+Quality Indicator,OO Response,independency
+Quality Indicator,Communication with customer,cuncurrency
+Quality Indicator,External Vendor Assignment,cuncurrency
+Quality Indicator,Pending vendor,cuncurrency
+Quality Indicator,Open,cuncurrency
+Quality Indicator,Communication with vendor,cuncurrency
+Quality Indicator,Reopen,cuncurrency
+Quality Indicator,Vendor Reference,independency
+Quality Indicator,Urgency Change,independency
+Quality Indicator,Impact Change,independency
+Quality Indicator,Quality Indicator Fixed,independency
+Quality Indicator,Problem Workaround,independency
+Quality Indicator,Problem Closure,independency
+Quality Indicator,Service Change,independency
+Quality Indicator,Affected CI Change,independency
+Quality Indicator,Referred,independency
+Quality Indicator,Vendor Reference Change,independency
+Quality Indicator,Incident reproduction,independency
+Quality Indicator,Quality Indicator,cuncurrency
+Quality Indicator,Notify By Change,independency
+Quality Indicator,Contact Change,independency
+Quality Indicator,Mail to Customer,independency
+Quality Indicator,Quality Indicator Set,independency
+Quality Indicator,Callback Request,independency
+Quality Indicator,External update,independency
+Quality Indicator,External Vendor Reassignment,independency
+Quality Indicator,alert stage 1,independency
+Quality Indicator,Dial-in,independency
+Notify By Change,Reassignment,cuncurrency
+Notify By Change,Update from customer,cuncurrency
+Notify By Change,Operator Update,cuncurrency
+Notify By Change,Assignment,cuncurrency
+Notify By Change,Closed,cuncurrency
+Notify By Change,Caused By CI,cuncurrency
+Notify By Change,Update,cuncurrency
+Notify By Change,Status Change,cuncurrency
+Notify By Change,Description Update,cuncurrency
+Notify By Change,Analysis/Research,cuncurrency
+Notify By Change,Resolved,cuncurrency
+Notify By Change,OO Response,independency
+Notify By Change,Communication with customer,cuncurrency
+Notify By Change,External Vendor Assignment,cuncurrency
+Notify By Change,Pending vendor,cuncurrency
+Notify By Change,Open,cuncurrency
+Notify By Change,Communication with vendor,independency
+Notify By Change,Reopen,cuncurrency
+Notify By Change,Vendor Reference,independency
+Notify By Change,Urgency Change,cuncurrency
+Notify By Change,Impact Change,cuncurrency
+Notify By Change,Quality Indicator Fixed,cuncurrency
+Notify By Change,Problem Workaround,independency
+Notify By Change,Problem Closure,independency
+Notify By Change,Service Change,independency
+Notify By Change,Affected CI Change,cuncurrency
+Notify By Change,Referred,independency
+Notify By Change,Vendor Reference Change,independency
+Notify By Change,Incident reproduction,independency
+Notify By Change,Quality Indicator,independency
+Notify By Change,Notify By Change,independency
+Notify By Change,Contact Change,independency
+Notify By Change,Mail to Customer,independency
+Notify By Change,Quality Indicator Set,independency
+Notify By Change,Callback Request,independency
+Notify By Change,External update,independency
+Notify By Change,External Vendor Reassignment,independency
+Notify By Change,alert stage 1,independency
+Notify By Change,Dial-in,independency
+Contact Change,Reassignment,cuncurrency
+Contact Change,Update from customer,cuncurrency
+Contact Change,Operator Update,cuncurrency
+Contact Change,Assignment,cuncurrency
+Contact Change,Closed,cuncurrency
+Contact Change,Caused By CI,cuncurrency
+Contact Change,Update,cuncurrency
+Contact Change,Status Change,cuncurrency
+Contact Change,Description Update,cuncurrency
+Contact Change,Analysis/Research,independency
+Contact Change,Resolved,independency
+Contact Change,OO Response,independency
+Contact Change,Communication with customer,cuncurrency
+Contact Change,External Vendor Assignment,cuncurrency
+Contact Change,Pending vendor,independency
+Contact Change,Open,cuncurrency
+Contact Change,Communication with vendor,independency
+Contact Change,Reopen,cuncurrency
+Contact Change,Vendor Reference,independency
+Contact Change,Urgency Change,cuncurrency
+Contact Change,Impact Change,cuncurrency
+Contact Change,Quality Indicator Fixed,cuncurrency
+Contact Change,Problem Workaround,independency
+Contact Change,Problem Closure,independency
+Contact Change,Service Change,independency
+Contact Change,Affected CI Change,cuncurrency
+Contact Change,Referred,independency
+Contact Change,Vendor Reference Change,independency
+Contact Change,Incident reproduction,independency
+Contact Change,Quality Indicator,independency
+Contact Change,Notify By Change,independency
+Contact Change,Contact Change,independency
+Contact Change,Mail to Customer,independency
+Contact Change,Quality Indicator Set,independency
+Contact Change,Callback Request,independency
+Contact Change,External update,independency
+Contact Change,External Vendor Reassignment,independency
+Contact Change,alert stage 1,independency
+Contact Change,Dial-in,independency
+Mail to Customer,Reassignment,cuncurrency
+Mail to Customer,Update from customer,cuncurrency
+Mail to Customer,Operator Update,cuncurrency
+Mail to Customer,Assignment,cuncurrency
+Mail to Customer,Closed,cuncurrency
+Mail to Customer,Caused By CI,cuncurrency
+Mail to Customer,Update,cuncurrency
+Mail to Customer,Status Change,cuncurrency
+Mail to Customer,Description Update,cuncurrency
+Mail to Customer,Analysis/Research,cuncurrency
+Mail to Customer,Resolved,cuncurrency
+Mail to Customer,OO Response,independency
+Mail to Customer,Communication with customer,cuncurrency
+Mail to Customer,External Vendor Assignment,cuncurrency
+Mail to Customer,Pending vendor,cuncurrency
+Mail to Customer,Open,cuncurrency
+Mail to Customer,Communication with vendor,cuncurrency
+Mail to Customer,Reopen,cuncurrency
+Mail to Customer,Vendor Reference,independency
+Mail to Customer,Urgency Change,cuncurrency
+Mail to Customer,Impact Change,cuncurrency
+Mail to Customer,Quality Indicator Fixed,cuncurrency
+Mail to Customer,Problem Workaround,independency
+Mail to Customer,Problem Closure,independency
+Mail to Customer,Service Change,independency
+Mail to Customer,Affected CI Change,independency
+Mail to Customer,Referred,independency
+Mail to Customer,Vendor Reference Change,independency
+Mail to Customer,Incident reproduction,independency
+Mail to Customer,Quality Indicator,independency
+Mail to Customer,Notify By Change,independency
+Mail to Customer,Contact Change,independency
+Mail to Customer,Mail to Customer,cuncurrency
+Mail to Customer,Quality Indicator Set,cuncurrency
+Mail to Customer,Callback Request,cuncurrency
+Mail to Customer,External update,independency
+Mail to Customer,External Vendor Reassignment,independency
+Mail to Customer,alert stage 1,independency
+Mail to Customer,Dial-in,independency
+Quality Indicator Set,Reassignment,cuncurrency
+Quality Indicator Set,Update from customer,cuncurrency
+Quality Indicator Set,Operator Update,cuncurrency
+Quality Indicator Set,Assignment,cuncurrency
+Quality Indicator Set,Closed,cuncurrency
+Quality Indicator Set,Caused By CI,cuncurrency
+Quality Indicator Set,Update,cuncurrency
+Quality Indicator Set,Status Change,cuncurrency
+Quality Indicator Set,Description Update,cuncurrency
+Quality Indicator Set,Analysis/Research,cuncurrency
+Quality Indicator Set,Resolved,cuncurrency
+Quality Indicator Set,OO Response,independency
+Quality Indicator Set,Communication with customer,cuncurrency
+Quality Indicator Set,External Vendor Assignment,cuncurrency
+Quality Indicator Set,Pending vendor,cuncurrency
+Quality Indicator Set,Open,cuncurrency
+Quality Indicator Set,Communication with vendor,cuncurrency
+Quality Indicator Set,Reopen,independency
+Quality Indicator Set,Vendor Reference,cuncurrency
+Quality Indicator Set,Urgency Change,cuncurrency
+Quality Indicator Set,Impact Change,cuncurrency
+Quality Indicator Set,Quality Indicator Fixed,cuncurrency
+Quality Indicator Set,Problem Workaround,independency
+Quality Indicator Set,Problem Closure,independency
+Quality Indicator Set,Service Change,independency
+Quality Indicator Set,Affected CI Change,independency
+Quality Indicator Set,Referred,independency
+Quality Indicator Set,Vendor Reference Change,independency
+Quality Indicator Set,Incident reproduction,cuncurrency
+Quality Indicator Set,Quality Indicator,independency
+Quality Indicator Set,Notify By Change,independency
+Quality Indicator Set,Contact Change,independency
+Quality Indicator Set,Mail to Customer,cuncurrency
+Quality Indicator Set,Quality Indicator Set,cuncurrency
+Quality Indicator Set,Callback Request,cuncurrency
+Quality Indicator Set,External update,independency
+Quality Indicator Set,External Vendor Reassignment,independency
+Quality Indicator Set,alert stage 1,independency
+Quality Indicator Set,Dial-in,independency
+Callback Request,Reassignment,cuncurrency
+Callback Request,Update from customer,independency
+Callback Request,Operator Update,cuncurrency
+Callback Request,Assignment,cuncurrency
+Callback Request,Closed,cuncurrency
+Callback Request,Caused By CI,independency
+Callback Request,Update,cuncurrency
+Callback Request,Status Change,cuncurrency
+Callback Request,Description Update,cuncurrency
+Callback Request,Analysis/Research,independency
+Callback Request,Resolved,independency
+Callback Request,OO Response,independency
+Callback Request,Communication with customer,cuncurrency
+Callback Request,External Vendor Assignment,independency
+Callback Request,Pending vendor,independency
+Callback Request,Open,independency
+Callback Request,Communication with vendor,independency
+Callback Request,Reopen,independency
+Callback Request,Vendor Reference,independency
+Callback Request,Urgency Change,independency
+Callback Request,Impact Change,independency
+Callback Request,Quality Indicator Fixed,independency
+Callback Request,Problem Workaround,independency
+Callback Request,Problem Closure,independency
+Callback Request,Service Change,independency
+Callback Request,Affected CI Change,independency
+Callback Request,Referred,independency
+Callback Request,Vendor Reference Change,independency
+Callback Request,Incident reproduction,independency
+Callback Request,Quality Indicator,independency
+Callback Request,Notify By Change,independency
+Callback Request,Contact Change,independency
+Callback Request,Mail to Customer,cuncurrency
+Callback Request,Quality Indicator Set,cuncurrency
+Callback Request,Callback Request,independency
+Callback Request,External update,independency
+Callback Request,External Vendor Reassignment,independency
+Callback Request,alert stage 1,independency
+Callback Request,Dial-in,independency
+External update,Reassignment,cuncurrency
+External update,Update from customer,cuncurrency
+External update,Operator Update,cuncurrency
+External update,Assignment,cuncurrency
+External update,Closed,cuncurrency
+External update,Caused By CI,cuncurrency
+External update,Update,cuncurrency
+External update,Status Change,cuncurrency
+External update,Description Update,independency
+External update,Analysis/Research,cuncurrency
+External update,Resolved,cuncurrency
+External update,OO Response,independency
+External update,Communication with customer,cuncurrency
+External update,External Vendor Assignment,cuncurrency
+External update,Pending vendor,independency
+External update,Open,cuncurrency
+External update,Communication with vendor,cuncurrency
+External update,Reopen,independency
+External update,Vendor Reference,independency
+External update,Urgency Change,cuncurrency
+External update,Impact Change,independency
+External update,Quality Indicator Fixed,independency
+External update,Problem Workaround,cuncurrency
+External update,Problem Closure,independency
+External update,Service Change,independency
+External update,Affected CI Change,independency
+External update,Referred,independency
+External update,Vendor Reference Change,independency
+External update,Incident reproduction,independency
+External update,Quality Indicator,independency
+External update,Notify By Change,independency
+External update,Contact Change,independency
+External update,Mail to Customer,independency
+External update,Quality Indicator Set,independency
+External update,Callback Request,independency
+External update,External update,cuncurrency
+External update,External Vendor Reassignment,independency
+External update,alert stage 1,independency
+External update,Dial-in,independency
+External Vendor Reassignment,Reassignment,cuncurrency
+External Vendor Reassignment,Update from customer,independency
+External Vendor Reassignment,Operator Update,cuncurrency
+External Vendor Reassignment,Assignment,cuncurrency
+External Vendor Reassignment,Closed,cuncurrency
+External Vendor Reassignment,Caused By CI,independency
+External Vendor Reassignment,Update,cuncurrency
+External Vendor Reassignment,Status Change,cuncurrency
+External Vendor Reassignment,Description Update,cuncurrency
+External Vendor Reassignment,Analysis/Research,independency
+External Vendor Reassignment,Resolved,cuncurrency
+External Vendor Reassignment,OO Response,independency
+External Vendor Reassignment,Communication with customer,independency
+External Vendor Reassignment,External Vendor Assignment,cuncurrency
+External Vendor Reassignment,Pending vendor,cuncurrency
+External Vendor Reassignment,Open,cuncurrency
+External Vendor Reassignment,Communication with vendor,cuncurrency
+External Vendor Reassignment,Reopen,independency
+External Vendor Reassignment,Vendor Reference,cuncurrency
+External Vendor Reassignment,Urgency Change,independency
+External Vendor Reassignment,Impact Change,independency
+External Vendor Reassignment,Quality Indicator Fixed,independency
+External Vendor Reassignment,Problem Workaround,independency
+External Vendor Reassignment,Problem Closure,independency
+External Vendor Reassignment,Service Change,independency
+External Vendor Reassignment,Affected CI Change,independency
+External Vendor Reassignment,Referred,independency
+External Vendor Reassignment,Vendor Reference Change,cuncurrency
+External Vendor Reassignment,Incident reproduction,independency
+External Vendor Reassignment,Quality Indicator,independency
+External Vendor Reassignment,Notify By Change,independency
+External Vendor Reassignment,Contact Change,independency
+External Vendor Reassignment,Mail to Customer,independency
+External Vendor Reassignment,Quality Indicator Set,independency
+External Vendor Reassignment,Callback Request,independency
+External Vendor Reassignment,External update,independency
+External Vendor Reassignment,External Vendor Reassignment,independency
+External Vendor Reassignment,alert stage 1,independency
+External Vendor Reassignment,Dial-in,independency
+alert stage 1,Reassignment,independency
+alert stage 1,Update from customer,independency
+alert stage 1,Operator Update,cuncurrency
+alert stage 1,Assignment,independency
+alert stage 1,Closed,cuncurrency
+alert stage 1,Caused By CI,independency
+alert stage 1,Update,independency
+alert stage 1,Status Change,independency
+alert stage 1,Description Update,independency
+alert stage 1,Analysis/Research,independency
+alert stage 1,Resolved,independency
+alert stage 1,OO Response,independency
+alert stage 1,Communication with customer,independency
+alert stage 1,External Vendor Assignment,independency
+alert stage 1,Pending vendor,independency
+alert stage 1,Open,independency
+alert stage 1,Communication with vendor,independency
+alert stage 1,Reopen,independency
+alert stage 1,Vendor Reference,independency
+alert stage 1,Urgency Change,independency
+alert stage 1,Impact Change,independency
+alert stage 1,Quality Indicator Fixed,independency
+alert stage 1,Problem Workaround,independency
+alert stage 1,Problem Closure,independency
+alert stage 1,Service Change,independency
+alert stage 1,Affected CI Change,independency
+alert stage 1,Referred,independency
+alert stage 1,Vendor Reference Change,independency
+alert stage 1,Incident reproduction,independency
+alert stage 1,Quality Indicator,independency
+alert stage 1,Notify By Change,independency
+alert stage 1,Contact Change,independency
+alert stage 1,Mail to Customer,independency
+alert stage 1,Quality Indicator Set,independency
+alert stage 1,Callback Request,independency
+alert stage 1,External update,independency
+alert stage 1,External Vendor Reassignment,independency
+alert stage 1,alert stage 1,cuncurrency
+alert stage 1,Dial-in,independency
+Dial-in,Reassignment,independency
+Dial-in,Update from customer,independency
+Dial-in,Operator Update,cuncurrency
+Dial-in,Assignment,cuncurrency
+Dial-in,Closed,cuncurrency
+Dial-in,Caused By CI,independency
+Dial-in,Update,independency
+Dial-in,Status Change,independency
+Dial-in,Description Update,independency
+Dial-in,Analysis/Research,independency
+Dial-in,Resolved,independency
+Dial-in,OO Response,independency
+Dial-in,Communication with customer,independency
+Dial-in,External Vendor Assignment,independency
+Dial-in,Pending vendor,independency
+Dial-in,Open,independency
+Dial-in,Communication with vendor,independency
+Dial-in,Reopen,independency
+Dial-in,Vendor Reference,independency
+Dial-in,Urgency Change,independency
+Dial-in,Impact Change,independency
+Dial-in,Quality Indicator Fixed,independency
+Dial-in,Problem Workaround,independency
+Dial-in,Problem Closure,independency
+Dial-in,Service Change,independency
+Dial-in,Affected CI Change,independency
+Dial-in,Referred,independency
+Dial-in,Vendor Reference Change,independency
+Dial-in,Incident reproduction,independency
+Dial-in,Quality Indicator,independency
+Dial-in,Notify By Change,independency
+Dial-in,Contact Change,independency
+Dial-in,Mail to Customer,independency
+Dial-in,Quality Indicator Set,independency
+Dial-in,Callback Request,independency
+Dial-in,External update,independency
+Dial-in,External Vendor Reassignment,independency
+Dial-in,alert stage 1,independency
+Dial-in,Dial-in,independency
