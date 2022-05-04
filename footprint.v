@@ -4,29 +4,25 @@ import os
 import encoding.csv
 
 enum Relations {
-	independency
-	causality
-	left // ->
-	right // <-
-	cuncurrency
+	independency // ##
+	causality // ->
+	follow // >>
+	cuncurrency // ||
 }
 
 [heap]
 struct Footprint {
 mut:
 	matrix map[string]map[string]Relations = map[string]map[string]Relations{}
-	activities []string
 }
 
 fn build_footprint(mut e Eventlog) Footprint {
 
 	mut f := Footprint{}
 
-	f.activities = e.activities
-
-	for x in f.activities{
-		for y in f.activities {
-			f.matrix[x][y] = .independency
+	for x in e.activities{
+		for y in e.activities {
+			f.matrix[x][y] = .independency // ##
 		}
 	}
 
@@ -35,27 +31,22 @@ fn build_footprint(mut e Eventlog) Footprint {
 		for i:=1; i<t.events.len; i++ {
 			x := t.events[i-1].activity
 			y := t.events[i].activity
-			f.matrix[x][y] = .left
-			f.matrix[y][x] = .right
+			f.matrix[x][y] = .follow // >>
 		}
 	}
 
-	for x in f.activities{
-		for y in f.activities {
-			if f.matrix[x][y] in [.right, .left]{
-				if f.matrix[y][x] in [.right, .left]{
+	for x in e.activities{
+		for y in e.activities {
+			if f.matrix[x][y] == .follow{
+				if f.matrix[y][x] == .follow{
 					f.matrix[x][y] = .cuncurrency
-					f.matrix[y][x] = .cuncurrency
+				}
+				else {
+					f.matrix[x][y] = .causality
 				}
 			}
 		}
 	}
-
-	// for x, m in f.matrix {
-	// 	for y, n in m {
-	// 		println('$x, $y = $n')
-	// 	}
-	// }
 
 	return f
 }
