@@ -1,12 +1,12 @@
 module main
 
-fn all_subsets(initial_set []string) [][]string {
+fn set_all_subsets<T>(initial_set []T) [][]T {
 
-	mut subsets := [][]string{}
+	mut subsets := [][]T{}
 
 	for i:=0; i<initial_set.len; i++{
 
-		mut subset := []string{}
+		mut subset := []T{}
 
 		subset << initial_set[i]
 
@@ -23,7 +23,7 @@ fn all_subsets(initial_set []string) [][]string {
 	return subsets
 }
 
-fn is_subset(a []string, b[] string) bool {
+fn set_is_subset<T>(a []T, b[] T) bool {
 
 	for item in a {
 		if item !in b {
@@ -32,4 +32,11 @@ fn is_subset(a []string, b[] string) bool {
 	}
 
 	return true
+}
+
+fn set_is_equal<T>(a []T, b[] T) bool {
+
+	if a.len != b.len { return false }
+
+	return is_subset(a,b)
 }

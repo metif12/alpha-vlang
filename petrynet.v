@@ -59,45 +59,28 @@ fn build_petrynet(e Eventlog, f Footprint) Petrynet {
 		}
 	}
 
-	mut generated := false
-
 	for {
 
-			candidate_place := candidate_places.pop()
+		exit_cnd := true
 
-			for place in candidate_places {
+		for p1 in candidate_places {
+		for p2 in candidate_places {
 
-				if place.inputs == candidate_place.inputs {
+			if set_is_equal(p1.inputs,p2.inputs) || set_is_equal(p1.outputs,p2.outputs) {
 
-					mut outputs := place.outputs
-					for o in candidate_place.outputs {
-						if o !in outputs { outputs << o }
-					}
+				c := Place{[...p1.inputs, ...p2.inputs], [...p1.outputs, ...p2.outputs]}
 
-					candidate_places << Place{place.inputs, outputs}
+				if c.is_valid(f) {
 
-					generated = true
-
-					continue
-				}
-
-				if place.outputs == candidate_place.outputs {
-
-					mut inputs := place.inputs
-					for o in candidate_place.inputs {
-						if o !in inputs { inputs << o }
-					}
-					
-					candidate_places << Place{inputs, place.outputs}
-
-					generated = true
-
-					continue
+					candidate_places << c 
+					exit_cnd = false
 				}
 			}
-
-			break
 		}
+		}
+
+		if exit_cnd { break }
+	}
 
 
 
