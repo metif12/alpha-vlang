@@ -2,9 +2,11 @@ module main
 
 import time
 
-const dataset_path = 'dataset.csv'
-
-const footprint_path = 'footprint.csv'
+const (
+	dataset_path   = 'dataset.csv'
+	footprint_path = 'footprint.csv'
+	petrynet_path  = 'petrynet.txt'
+)
 
 fn main() {
 	sw := time.new_stopwatch()
@@ -19,6 +21,8 @@ fn main() {
 
 	println('Build petrynet ...')
 	mut petrynet := build_petrynet(eventlog, footprint)
+
+	write_petrynet(petrynet_path, petrynet)?
 
 	println('finished in  ${sw.elapsed().seconds()}s')
 }

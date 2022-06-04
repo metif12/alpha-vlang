@@ -32,14 +32,14 @@ fn build_eventlog(dataset_path string) ?Eventlog {
 
 	csv_reader.delimiter = `;`
 
-	_ := csv_reader.read()? //ignore header
+	_ := csv_reader.read()? // ignore header
 
 	for {
-		cols := csv_reader.read() or { break } //break when EOF reached
+		cols := csv_reader.read() or { break } // break when EOF reached
 
-		cid := cols[0] //case id
-		eid := cols[2] //event id
-		ett := cols[3] //event name
+		cid := cols[0] // case id
+		eid := cols[2] // event id
+		ett := cols[3] // event name
 
 		ets := time.Time{
 			day: cols[1][0..2].int()
