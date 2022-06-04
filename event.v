@@ -4,14 +4,12 @@ import time
 
 [heap]
 struct Event {
-	id        	string
-	activity    string
-	time 		time.Time
+	id       string
+	activity string
+	time     time.Time
 }
 
-
 fn (a Event) is_same(b Event) bool {
-
 	return a.activity == b.activity
 }
 

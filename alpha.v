@@ -3,10 +3,10 @@ module main
 import time
 
 const dataset_path = 'dataset.csv'
+
 const footprint_path = 'footprint.csv'
 
 fn main() {
-
 	sw := time.new_stopwatch()
 
 	println('Reading dataset ...')
@@ -19,6 +19,6 @@ fn main() {
 
 	println('Build petrynet ...')
 	mut petrynet := build_petrynet(eventlog, footprint)
-	
+
 	println('finished in  ${sw.elapsed().seconds()}s')
 }

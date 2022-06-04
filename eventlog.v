@@ -7,11 +7,11 @@ import encoding.csv
 [heap]
 struct Eventlog {
 mut:
-	traces map[string]Trace = map[string]Trace{}
+	traces     map[string]Trace = map[string]Trace{}
 	activities []string
 }
 
-fn (mut e Eventlog) get_case(id string) Trace{
+fn (mut e Eventlog) get_case(id string) Trace {
 	return e.traces[id] or {
 		Trace{
 			id: id
@@ -19,28 +19,27 @@ fn (mut e Eventlog) get_case(id string) Trace{
 	}
 }
 
-fn (mut e Eventlog) update_case(id string, t Trace){
+fn (mut e Eventlog) update_case(id string, t Trace) {
 	e.traces[id] = t
 }
 
-fn build_eventlog(dataset_path string) ?Eventlog{
-
+fn build_eventlog(dataset_path string) ?Eventlog {
 	mut e := Eventlog{}
 
-	content := os.read_file(dataset_path) ?
+	content := os.read_file(dataset_path)?
 
 	mut csv_reader := csv.new_reader(content)
 
-	csv_reader.delimiter= `;`
+	csv_reader.delimiter = `;`
 
-	_ := csv_reader.read() ?
+	_ := csv_reader.read()? //ignore header
 
 	for {
-		cols := csv_reader.read() or { break }
-		
-		cid := cols[0]
-		eid := cols[2]
-		ett := cols[3]
+		cols := csv_reader.read() or { break } //break when EOF reached
+
+		cid := cols[0] //case id
+		eid := cols[2] //event id
+		ett := cols[3] //event name
 
 		ets := time.Time{
 			day: cols[1][0..2].int()
@@ -52,12 +51,13 @@ fn build_eventlog(dataset_path string) ?Eventlog{
 		}
 
 		mut trace := e.get_case(cid)
-
-		trace.add_event(Event{
+		mut event := Event{
 			id: eid
 			activity: ett
 			time: ets
-		})
+		}
+
+		trace.add_event(event)
 
 		if ett !in e.activities {
 			e.activities << ett

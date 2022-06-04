@@ -1,19 +1,16 @@
 module main
 
 fn set_all_subsets<T>(initial_set []T) [][]T {
-
 	mut subsets := [][]T{}
 
-	for i:=0; i<initial_set.len; i++{
-
+	for i := 0; i < initial_set.len; i++ {
 		mut subset := []T{}
 
 		subset << initial_set[i]
 
 		subsets << subset.clone()
 
-		for j:= i+1; j<initial_set.len; j++ {
-
+		for j := i + 1; j < initial_set.len; j++ {
 			subset << initial_set[j]
 
 			subsets << subset.clone()
@@ -23,8 +20,7 @@ fn set_all_subsets<T>(initial_set []T) [][]T {
 	return subsets
 }
 
-fn set_is_subset<T>(a []T, b[] T) bool {
-
+fn set_is_subset<T>(a []T, b []T) bool {
 	for item in a {
 		if item !in b {
 			return false
@@ -34,9 +30,10 @@ fn set_is_subset<T>(a []T, b[] T) bool {
 	return true
 }
 
-fn set_is_equal<T>(a []T, b[] T) bool {
+fn set_is_equal<T>(a []T, b []T) bool {
+	if a.len != b.len {
+		return false
+	}
 
-	if a.len != b.len { return false }
-
-	return is_subset(a,b)
+	return set_is_subset(a, b)
 }

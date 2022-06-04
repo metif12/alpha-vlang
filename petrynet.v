@@ -6,8 +6,8 @@ import arrays
 struct Petrynet {
 mut:
 	start_activities []string
-	end_activities []string
-	places []Place
+	end_activities   []string
+	places           []Place
 }
 
 // fn write_places(places_path string, p Petrynet) ? {
@@ -28,15 +28,12 @@ mut:
 
 // 	os.write_file(places_path, csv_writer.str()) ?
 // }
-
 fn build_petrynet(e Eventlog, f Footprint) Petrynet {
-
 	mut p := Petrynet{}
 
 	for _, t in e.traces {
-
 		start_act := t.events[0].activity
-		end_act := t.events[t.events.len-1].activity
+		end_act := t.events[t.events.len - 1].activity
 
 		if start_act !in p.start_activities {
 			p.start_activities << start_act
@@ -47,52 +44,61 @@ fn build_petrynet(e Eventlog, f Footprint) Petrynet {
 		}
 	}
 
+	mut candidate_places := []Place{}
 
-	mut candidate_places := []Place
-
-	for x in e.activities{
+	for x in e.activities {
 		for y in e.activities {
 			if f.matrix[x][y] == .causality {
-
-				candidate_places << Place{inputs:[x], outputs:[y]}
+				candidate_places << Place{
+					inputs: [x]
+					outputs: [y]
+				}
 			}
 		}
 	}
 
 	for {
-
-		exit_cnd := true
+		mut exit_cnd := true
 
 		for p1 in candidate_places {
-		for p2 in candidate_places {
+			for p2 in candidate_places {
+				if set_is_equal(p1.inputs, p2.inputs) || set_is_equal(p1.outputs, p2.outputs) {
+					mut inps := p1.inputs
+					mut outs := p1.outputs
 
-			if set_is_equal(p1.inputs,p2.inputs) || set_is_equal(p1.outputs,p2.outputs) {
+					for i in p2.inputs {
+						if i !in inps {
+							inps << i
+						}
+					}
 
-				c := Place{[...p1.inputs, ...p2.inputs], [...p1.outputs, ...p2.outputs]}
+					for o in p2.outputs {
+						if o !in outs {
+							inps << o
+						}
+					}
 
-				if c.is_valid(f) {
+					c := Place{inps, outs}
 
-					candidate_places << c 
-					exit_cnd = false
+					if c.is_valid(f) {
+						candidate_places << c
+						exit_cnd = false
+					}
 				}
 			}
 		}
+
+		if exit_cnd {
+			break
 		}
-
-		if exit_cnd { break }
 	}
-
-
-
-
-
 
 	// candidate_sets := all_subsets(e.activities)
 
 	// mut independent_sets := [][]string{}
 
 	// independency_check:for candidate_set in candidate_sets {
- 
+
 	// 	for a in candidate_set {
 	// 		for b in candidate_set {
 	// 			if a != b && f.matrix[a][b] != .independency {
@@ -121,23 +127,23 @@ fn build_petrynet(e Eventlog, f Footprint) Petrynet {
 	// 		candidate_places << Place{inputs:inputs, outputs:outputs}
 	// 	}
 	// }
-
-	println('candidate places len: ${candidate_places.len}')
+	println('candidate places len: $candidate_places.len')
 
 	for {
-
-		if candidate_places.len == 0 { break }
+		if candidate_places.len == 0 {
+			break
+		}
 
 		place := candidate_places.pop()
 
-		if place.is_redundant(candidate_places) { 
+		if !place.is_maximal(candidate_places) {
 			println('redundant place found')
-			continue 
+			continue
 		}
 
 		p.places << place
 	}
 
-	println('candidate places len: ${p.places.len}')
+	println('candidate places len: $p.places.len')
 	return p
 }
