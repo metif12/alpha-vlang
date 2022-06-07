@@ -5,24 +5,18 @@ import time
 const (
 	dataset_path   = 'dataset.csv'
 	footprint_path = 'footprint.csv'
-	petrynet_path  = 'petrynet.txt'
+	result_path    = 'result.txt'
 )
 
 fn main() {
 	sw := time.new_stopwatch()
 
-	println('Reading dataset ...')
 	mut eventlog := build_eventlog(dataset_path)?
-
-	println('Build footprint matrix ...')
 	mut footprint := build_footprint(mut eventlog)
-
-	write_footprint(footprint_path, footprint)?
-
-	println('Build petrynet ...')
 	mut petrynet := build_petrynet(eventlog, footprint)
+	mut result := build_result(eventlog, footprint, petrynet)
 
-	write_petrynet(petrynet_path, petrynet)?
+	write_result(result_path, result)?
 
 	println('finished in  ${sw.elapsed().seconds()}s')
 }

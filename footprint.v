@@ -1,17 +1,14 @@
 module main
 
-import os
-import encoding.csv
-
 enum Relations {
-	independency
 	// ##
-	causality
+	independency
 	// ->
-	follow
+	causality
 	// >>
-	cuncurrency
+	follow
 	// ||
+	cuncurrency
 }
 
 [heap]
@@ -50,17 +47,4 @@ fn build_footprint(mut e Eventlog) Footprint {
 	}
 
 	return f
-}
-
-fn write_footprint(footprint_path string, f Footprint) ? {
-	mut csv_writer := csv.new_writer()
-
-	csv_writer.write(['x', 'y', 'relation'])?
-
-	for x, m in f.matrix {
-		for y, relation in m {
-			csv_writer.write([x, y, relation.str()])?
-		}
-	}
-	os.write_file(footprint_path, csv_writer.str())?
 }
