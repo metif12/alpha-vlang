@@ -3,9 +3,8 @@ module main
 import time
 
 const (
-	dataset_path   = 'dataset.csv'
-	footprint_path = 'footprint.csv'
-	result_path    = 'result.txt'
+	dataset_path = 'dataset.csv'
+	result_path  = 'result.txt'
 )
 
 fn main() {

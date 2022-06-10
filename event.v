@@ -21,8 +21,6 @@ fn cmp_events_time(a &Event, b &Event) int {
 		return -1
 	}
 
-	// println('equal time!')
-
 	if a.id < b.id {
 		return -1
 	}

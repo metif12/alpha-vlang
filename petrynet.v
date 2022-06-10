@@ -15,7 +15,6 @@ type Arch = InpArch | OutArch
 [heap]
 struct Petrynet {
 mut:
-	activities       []string
 	start_activities []string
 	end_activities   []string
 	places           []Place
@@ -23,9 +22,7 @@ mut:
 }
 
 fn build_petrynet(e Eventlog, f Footprint) Petrynet {
-	mut p := Petrynet{
-		activities: e.activities
-	}
+	mut p := Petrynet{}
 
 	for _, t in e.traces {
 		start_act := t.events[0].activity

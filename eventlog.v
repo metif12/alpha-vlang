@@ -58,12 +58,11 @@ fn build_eventlog(dataset_path string) ?Eventlog {
 		}
 
 		trace.add_event(event)
+		e.update_case(cid, trace)
 
 		if ett !in e.activities {
 			e.activities << ett
 		}
-
-		e.update_case(cid, trace)
 	}
 
 	for _, mut t in e.traces {
