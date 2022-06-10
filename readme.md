@@ -1,3 +1,5 @@
+alpha algorithm implemented in vlang.
+
 # dataset
 ## [BPI Challenge 2014: Activity log for incidents](https://data.4tu.nl/articles/dataset/BPI_Challenge_2014_Activity_log_for_incidents/12706424/1)
 
