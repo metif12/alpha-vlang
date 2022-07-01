@@ -2,7 +2,7 @@ module main
 
 [heap]
 struct Trace {
-	case_id string
+	id string
 mut:
 	events []Event
 }
@@ -12,5 +12,11 @@ fn (mut t Trace) sort_events() {
 }
 
 fn (mut t Trace) add_event(e Event) {
+	for event in t.events {
+		if event.is_same(e) {
+			return
+		}
+	}
+
 	t.events << e
 }
